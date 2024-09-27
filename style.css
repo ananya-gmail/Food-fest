@@ -1,0 +1,108 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    font-size: 10px;
+    background-color: black
+}
+.container{
+background-color: white;
+width: 80%;
+}
+.fest{
+    /* color: white;
+    background-color: rgb(0,0,0,0.8); */
+    text-align: center;
+    
+} 
+.fest h1{
+    font-size: 12px;
+    color: white;
+    animation: move 2s linear infinite both;
+    /* height: 200px;
+    
+    width: 200px; */
+} 
+@keyframes move{
+    0%{
+        top: 0%;
+        left: 10%;
+    }
+    50%{
+       left: 50%;
+    }
+}
+
+
+h1 b{
+    color: orange;
+}
+.container{
+    display: grid;
+    grid-template-columns: 50% auto;
+    gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 5px;
+    
+}
+
+
+.info p{
+    margin-top: 4px;
+    color: orange;
+
+}
+button{
+    height: 10px;
+    font-size: 7px;
+    margin-top: 4px;
+    margin-left: 20px;
+    color: rgb(106, 212, 157);
+}
+.container .container-right img{
+animation: rotate 10s linear infinite;
+margin-top: 7px;
+margin-right: 22px;
+}
+
+/* 
+ @keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+} */ 
+.card-list{
+     
+     margin-bottom: 4px;
+     align-items: center;
+     display: flex;
+     width: 100%;
+     justify-content: center;
+
+}
+.category h5{
+text-align: center;
+color: white;
+animation: move 2s linear infinite both;
+}
+.card-list{
+    @keyframes move{
+        0%{
+            top: 0%;
+            left: 10%;
+        }
+        50%{
+           left: 50%;
+        }
+    }
+    
+}
